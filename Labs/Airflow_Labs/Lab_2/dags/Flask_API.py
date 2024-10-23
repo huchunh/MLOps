@@ -1,6 +1,6 @@
 from airflow.models.dagrun import DagRun
 from airflow.utils.state import State
-from airflow import DAG
+from dags.main import DAG
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
 from flask import Flask, jsonify, redirect, render_template
