@@ -3,7 +3,7 @@ from airflow.operators.python_operator import PythonOperator
 from airflow.operators.bash import BashOperator
 from datetime import datetime
 from src.model_development import load_data, load_model, build_model, data_preprocessing
-from airflow import configuration as conf
+from dags.main import configuration as conf
 from airflow.operators.email_operator import EmailOperator
 from airflow.operators.dagrun_operator import TriggerDagRunOperator
 from airflow.utils.trigger_rule import TriggerRule
