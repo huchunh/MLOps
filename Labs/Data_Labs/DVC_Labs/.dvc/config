@@ -2,3 +2,4 @@
     remote = myremote
 ['remote "myremote"']
     url = gs://gcp-lab-bucket-hu
+    credentialpath = ../UsershuDesktopmlopmy-project-mlop-9dc4303fccce.json
